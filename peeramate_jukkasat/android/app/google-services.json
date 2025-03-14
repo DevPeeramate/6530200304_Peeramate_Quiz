@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835670620387",
+    "project_id": "peeramate-jukkasat",
+    "storage_bucket": "peeramate-jukkasat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835670620387:android:a5250acea6d1aab249edd6",
+        "android_client_info": {
+          "package_name": "com.example.peeramate_jukkasat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATctkLM_Tny4D2mNWCcFC6dBI20GN3DVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
