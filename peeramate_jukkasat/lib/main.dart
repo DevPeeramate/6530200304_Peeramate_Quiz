@@ -113,14 +113,14 @@ class RestaurantListScreen extends StatelessWidget {
           TextButton(
             child: const Text("cancel"),
             onPressed: () {
-              Navigator.of(dialogContext).pop(); // ปิด popup
+              Navigator.of(dialogContext).pop();
             },
           ),
           TextButton(
             child: const Text("delete", style: TextStyle(color: Colors.red)),
             onPressed: () {
               FirebaseFirestore.instance.collection('Restaurants').doc(docId).delete().then((_) {
-                Navigator.of(dialogContext).pop(); // ปิด popup หลังลบสำเร็จ
+                Navigator.of(dialogContext).pop();
               });
             },
           ),
